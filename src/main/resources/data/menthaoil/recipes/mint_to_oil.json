@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "menthaoil:mint"
+    },
+    "G": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "pattern": [
+    "MGM",
+    "MMM",
+    "MMM"
+  ],
+  "result": {
+    "item": "menthaoil:mentha_oil"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,42 @@
+{
+  "block.menthaoil.mint_grass": "ミント",
+
+  "item.menthaoil.mentha_oil": "ハッカ油",
+  "item.menthaoil.mentha_spray": "ハッカスプレー",
+
+  "tooltip.menthaoil.durability": "残量: ",
+
+  "tooltip.menthaoil.menthaitem.0": "ハッカ油が粘膜に付着したエンティティは、悶え苦しんで死ぬ",
+  "tooltip.menthaoil.menthaitem.1": "ハッカなんかに負けないもん",
+  "tooltip.menthaoil.menthaitem.2": "金玉痛って 金玉痛って 金玉金玉クッソ痛って",
+  "tooltip.menthaoil.menthaitem.3": "ﾊｧﾊｧﾊｧ ﾊｧﾊｧﾊｧﾊｧ ﾊｧﾊｧﾊｧﾊｧ",
+  "tooltip.menthaoil.menthaitem.4": "金玉金玉痛ててててててて",
+  "tooltip.menthaoil.menthaitem.5": "刺激が 刺激が 強すぎる",
+  "tooltip.menthaoil.menthaitem.6": "チンコが死ぬ死ぬ死ぬ死ぬ死ぬ死ぬ死ぬ死ぬ",
+  "tooltip.menthaoil.menthaitem.7": "助けてマツケン",
+  "tooltip.menthaoil.menthaitem.8": "金玉痛って 金玉痛って 金玉金玉クッソ痛って",
+  "tooltip.menthaoil.menthaitem.9": "地獄の責め苦で 金玉金玉オープンプン",
+  "tooltip.menthaoil.menthaitem.10": "殺して 殺して お願い殺して",
+  "tooltip.menthaoil.menthaitem.11": "助けてください チンコがもげそう",
+  "tooltip.menthaoil.menthaitem.12": "金玉痛って 金玉痛って 金玉金玉クッソ痛って",
+  "tooltip.menthaoil.menthaitem.13": "ﾊｧﾊｧﾊｧ ﾊｧﾊｧﾊｧﾊｧ ﾊｧﾊｧﾊｧﾊｧ",
+  "tooltip.menthaoil.menthaitem.14": "金玉金玉痛ててててててて",
+  "tooltip.menthaoil.menthaitem.15": "ハッカが踊るよ スースーティンコー！",
+  "tooltip.menthaoil.menthaitem.16": "金玉も踊る スースーティンコー！",
+  "tooltip.menthaoil.menthaitem.17": "ﾊｧﾊｧﾊｧﾊｧﾊｧﾊｧﾊｧﾊｧﾊｧﾊｧﾊｧﾊｧﾊｧﾊｧﾊｧﾊｧﾊｧﾊｧﾊｧﾊｧﾊｧ ﾊｧﾊｧﾊｧ ﾊｧﾊｧﾊｧﾊｧﾊﾊﾊﾊ",
+  "tooltip.menthaoil.menthaitem.18": "わずかなハッカ油のおかげで",
+  "tooltip.menthaoil.menthaitem.19": "金玉もげる真島茂樹 ｱ-",
+  "tooltip.menthaoil.menthaitem.20": "金玉痛って チンコないって 金玉痛って チンコないって",
+  "tooltip.menthaoil.menthaitem.21": "金玉痛って チンコないって 金玉痛って チンコないって",
+  "tooltip.menthaoil.menthaitem.22": "金玉痛って チンコないって 金玉痛って チンコないって",
+  "tooltip.menthaoil.menthaitem.23": "金玉痛って チンコないって 金玉痛って チンコないって",
+  "tooltip.menthaoil.menthaitem.24": "金玉痛って チンコないって 金玉痛って チンコないって",
+  "tooltip.menthaoil.menthaitem.25": "金玉痛って チンコないって 金玉痛って チンコないって",
+  "tooltip.menthaoil.menthaitem.26": "地獄の責め苦で チンコがもげるよ",
+  "tooltip.menthaoil.menthaitem.27": "チンコがもげるよ チンコがもげるよ",
+  "tooltip.menthaoil.menthaitem.28": "チンコがもげるよ チンコがもげるよ チンコがもげるよ チン (死亡)",
+  "tooltip.menthaoil.menthaitem.29": "ｽﾝ(蘇生)   ち　わ　げ　ん　か",
+  "tooltip.menthaoil.menthaitem.30": "原作: https://www.nicovideo.jp/watch/sm34499796",
+
+  "death.attack.death_mint": "%sは地獄の責め苦で魂がもげてしまった"
+}
