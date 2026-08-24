@@ -2,6 +2,7 @@ package net.dice7000.menthaoil.mixin.mixin;
 
 import net.dice7000.menthaoil.MORegistry;
 import net.dice7000.menthaoil.mixin.IMenthaOilVictim;
+import net.minecraft.nbt.CompoundTag;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.level.Level;
@@ -35,12 +36,19 @@ public class EntityMixin implements IMenthaOilVictim {
                 if (menthaoil$this instanceof LivingEntity l) l.hurt(MORegistry.causeDeathMintDamage(level), l.getMaxHealth() * 0.1F);
             }
             menthaoil$count++;
-
         }
     }
-    @Inject(method = "isNoGravity", at = @At("HEAD"), cancellable = true)
-    public void isNoGravityInject(CallbackInfoReturnable<Boolean> cir) {
-        if (menthaoil$hasAffected) cir.setReturnValue(false);
+    @Inject(method = "saveWithoutId", at = @At(value = "INVOKE",
+            target = "Lnet/minecraft/world/entity/Entity;addAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V",
+            shift = At.Shift.AFTER))
+    public void saveInject(CompoundTag tag, CallbackInfoReturnable<CompoundTag> cir) {
+        tag.putBoolean("mint_affected", menthaoil$getAffected());
+    }
+    @Inject(method = "load", at = @At(value = "INVOKE",
+            target = "Lnet/minecraft/world/entity/Entity;readAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V",
+            shift = At.Shift.AFTER))
+    public void loadInject(CompoundTag tag, CallbackInfo ci) {
+        if (tag.getBoolean("mint_affected")) menthaoil$setAffected();
     }
 
     @Override public void menthaoil$setAffected() {
