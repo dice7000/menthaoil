@@ -114,7 +114,6 @@ public class MORegistry {
         }
         @Override public void onUseTick(@NotNull Level level, @NotNull LivingEntity entity, @NotNull ItemStack stack, int remainingTick) {
             if (entity instanceof Player user) {
-                user.sendSystemMessage(Component.literal(remainingTick + ""));
                 Vec3 look = user.getLookAngle(); Vec3 origin = user.getEyePosition().add(look.scale(0.5));
                 AABB hitbox = new AABB(origin, origin.add(look.scale(5.0))).inflate(3.0);
                 level.getEntities(user, hitbox).forEach(target ->
