@@ -1,4 +1,7 @@
 # プロジェクトの除外パス
 /.gradle/
+/.idea/
 /build/
 /build/classes/java/main/
+/run/
+/run-data/
